@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  AppleStockApp
 //
-//  Created by IBE on 26/11/2021.
+//  Created by naseem on 26/11/2021.
 //
 
 import SwiftUI
