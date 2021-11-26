@@ -8,7 +8,7 @@
 import Foundation
 
 struct Webservice {
-    func getStock(completion: @escaping (([Stock]?) -> Void)) {
+    func getStocks(completion: @escaping (([Stock]?) -> Void)) {
         guard let url = URL(string: "https://silicon-rhinoceros.glitch.me/stocks") else {
             fatalError("URL is not correct")
         }
