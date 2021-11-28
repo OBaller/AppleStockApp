@@ -65,6 +65,6 @@ struct StockListView_Previews: PreviewProvider {
     static var previews: some View {
         
          let stock = Stock(symbol: "GOOG", description: "Google Stocks", price: 1200, change: "+0.23")
-          return StockListView(stocks: [StockViewModel(stock: stock)])
+        return StockListView(stocks: [StockViewModel(stock: stock)])
     }
 }
